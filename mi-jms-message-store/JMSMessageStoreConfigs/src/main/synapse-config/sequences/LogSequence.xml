@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="LogSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="custom">
+        <property name="Logging" value="the received message"/>
+    </log>
+    <log level="full"/>
+    <drop/>
+</sequence>

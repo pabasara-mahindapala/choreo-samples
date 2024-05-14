@@ -68,15 +68,15 @@
         <checksumPolicy>ignore</checksumPolicy>
       </releases>
       <id>wso2-nexus</id>
-      <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      <url>http://maven.wso2.org/nexus/content/groups/wso2-public/</url>
     </repository>
     <repository>
       <id>wso2-maven2-repository-1</id>
-      <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      <url>http://dist.wso2.org/maven2</url>
     </repository>
     <repository>
       <id>wso2-nexus-repository-1</id>
-      <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      <url>http://maven.wso2.org/nexus/content/groups/wso2-public/</url>
     </repository>
   </repositories>
   <pluginRepositories>
@@ -87,15 +87,15 @@
         <checksumPolicy>ignore</checksumPolicy>
       </releases>
       <id>wso2-nexus</id>
-      <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      <url>http://maven.wso2.org/nexus/content/groups/wso2-public/</url>
     </pluginRepository>
     <pluginRepository>
       <id>wso2-maven2-repository-1</id>
-      <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      <url>http://dist.wso2.org/maven2</url>
     </pluginRepository>
     <pluginRepository>
       <id>wso2-nexus-repository-1</id>
-      <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      <url>http://maven.wso2.org/nexus/content/groups/wso2-public/</url>
     </pluginRepository>
   </pluginRepositories>
   <build>
@@ -113,7 +113,7 @@
       <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>maven-car-plugin</artifactId>
-        <version>5.2.45</version>
+        <version>5.2.40</version>
         <extensions>true</extensions>
         <executions>
           <execution>
@@ -136,7 +136,7 @@
       <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>maven-car-deploy-plugin</artifactId>
-        <version>5.2.44</version>
+        <version>5.2.40</version>
         <extensions>true</extensions>
         <dependencies>
           <dependency>

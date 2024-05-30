@@ -1,0 +1,11 @@
+---
+key: "Log_API-1.0.0"
+name : "Log_API"
+displayName : "Log_API"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/log"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"

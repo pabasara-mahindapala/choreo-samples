@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/log" name="Log_API" xmlns="http://ws.apache.org/ns/synapse">
+    <resource inSequence="LogMessage_InSeq" methods="POST" uri-template="/message">
+        <outSequence/>
+        <faultSequence>
+            <log level="custom">
+                <property name="Logging" value="a Fault"/>
+            </log>
+            <log level="full"/>
+        </faultSequence>
+    </resource>
+</api>

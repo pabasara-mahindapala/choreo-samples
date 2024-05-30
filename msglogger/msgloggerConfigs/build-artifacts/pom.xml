@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.example</groupId>
+    <artifactId>msgloggerConfigs</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <groupId>com.example</groupId>
+  <artifactId>msgloggerConfigs_module</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>msgloggerConfigs_module</name>
+  <description>msgloggerConfigs_module</description>
+  <modules>
+    <module>api/Log_API</module>
+    <module>metadata/Log_API_swagger</module>
+    <module>metadata/Log_API_metadata</module>
+    <module>sequences/LogMessage_InSeq</module>
+    <module>message-stores/LogMsg_MS</module>
+    <module>message-processors/LogMsg_MP</module>
+    <module>proxy-services/LogMsg_Proxy</module>
+    <module>metadata/LogMsg_Proxy_proxy_metadata</module>
+    <module>sequences/LogMsg_Process_Seq</module>
+    <module>endpoints/ProcessMsg_EP</module>
+  </modules>
+</project>

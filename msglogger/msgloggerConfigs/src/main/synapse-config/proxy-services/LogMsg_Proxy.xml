@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="LogMsg_Proxy" startOnLoad="true" statistics="enable" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <sequence key="LogMsg_Process_Seq"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+</proxy>

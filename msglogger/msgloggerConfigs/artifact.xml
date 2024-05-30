@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="Log_API" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/Log_API.xml</file>
+    </artifact>
+    <artifact name="Log_API_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Log_API_swagger.yaml</file>
+    </artifact>
+    <artifact name="Log_API_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Log_API_metadata.yaml</file>
+    </artifact>
+    <artifact name="LogMessage_InSeq" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/LogMessage_InSeq.xml</file>
+    </artifact>
+    <artifact name="LogMsg_MS" groupId="com.example.message-store" version="1.0.0" type="synapse/message-store" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/message-stores/LogMsg_MS.xml</file>
+    </artifact>
+    <artifact name="LogMsg_MP" groupId="com.example.message-processors" version="1.0.0" type="synapse/message-processors" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/message-processors/LogMsg_MP.xml</file>
+    </artifact>
+    <artifact name="LogMsg_Proxy" groupId="com.example.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/LogMsg_Proxy.xml</file>
+    </artifact>
+    <artifact name="LogMsg_Proxy_proxy_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/LogMsg_Proxy_proxy_metadata.yaml</file>
+    </artifact>
+    <artifact name="LogMsg_Process_Seq" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/LogMsg_Process_Seq.xml</file>
+    </artifact>
+    <artifact name="ProcessMsg_EP" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/ProcessMsg_EP.xml</file>
+    </artifact>
+</artifacts>

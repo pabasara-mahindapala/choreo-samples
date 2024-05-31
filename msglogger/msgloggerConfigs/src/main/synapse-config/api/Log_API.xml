@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<api context="/log" name="Log_API" xmlns="http://ws.apache.org/ns/synapse">
+<api context="/log" name="Log_API" statistics="enable" trace="enable" xmlns="http://ws.apache.org/ns/synapse">
     <resource inSequence="LogMessage_InSeq" methods="POST" uri-template="/message">
         <outSequence/>
         <faultSequence>

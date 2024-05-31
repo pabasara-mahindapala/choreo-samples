@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sequence name="LogMessage_InSeq" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+<sequence name="LogMessage_InSeq" statistics="enable" trace="enable" xmlns="http://ws.apache.org/ns/synapse">
     <log level="custom">
         <property name="Logging" value="the Msg"/>
     </log>

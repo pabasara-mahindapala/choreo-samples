@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <endpoint name="ProcessMsg_EP" xmlns="http://ws.apache.org/ns/synapse">
-    <address uri="local://services/LogMsg_Proxy">
+    <address statistics="enable" trace="enable" uri="local://services/LogMsg_Proxy">
         <suspendOnFailure>
             <initialDuration>-1</initialDuration>
             <progressionFactor>1.0</progressionFactor>
